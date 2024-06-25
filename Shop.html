@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="/CSS/Shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header class="header">
+      <a href="index.html" class="logo"
+        >HexiBall<ion-icon name="football-outline"></ion-icon
+      ></a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="product.html">Product</a>
+        <a href="contact.html">Contact & Support</a><a href="">Blog</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      </div>
+      <form action="" class="search-form">
+        <input type="search" id="searchInput" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <div class="shopping-cart">
+        <div class="name">CART</div>
+        <div class="listCart">
+
+        </div>
+        <div class="total">total : VNĐ</div>
+  
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Sport <span>High Quality</span> products for your</h3>
+        <p>
+          Hãy khám phá cửa hàng bóng đá đẹp của chúng tôi, nơi bạn có thể tìm
+          thấy những sản phẩm chất lượng và phong cách. Chúng tôi cung cấp đủ
+          các loại áo đấu, giày bóng đá, quần áo và phụ kiện liên quan đến bóng
+          đá. Hãy trang bị cho mình những trang phục tuyệt đẹp và sẵn sàng để
+          trổ tài trên sân cỏ!
+        </p>
+        <button class="btn">Shop now</button>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img
+            width="150px"
+            src="https://skymen.vn/wp-content/uploads/2018/12/KHUYEN-MAI.png"
+            alt=""
+          />
+          <h3>Promotion</h3>
+          <p>
+            Chào mừng bạn đến với Thoại! Hãy nhận ngay ưu đãi đặc biệt chỉ trong
+            tháng này: - Giảm giá 20% cho tất cả đơn hàng. - Tặng kèm món quà
+            trị giá 200,000 VNĐ cho đơn hàng từ 1,000,000 VNĐ trở lên. Đừng bỏ
+            lỡ cơ hội này! Hãy đặt hàng ngay hôm nay để tận hưởng những ưu đãi
+            tuyệt vời của chúng tôi.
+          </p>
+          <button class="btn">read more</button>
+        </div>
+        <div class="box">
+          <img
+            width="200px"
+            src="https://pngimg.com/d/free_shipping_PNG49.png"
+            alt=""
+          />
+          <h3>Free delivery</h3>
+          <p>
+            Chúng tôi rất vui thông báo rằng chúng tôi cung cấp dịch vụ giao
+            hàng miễn phí cho tất cả các đơn hàng của bạn. Bạn không cần phải lo
+            lắng về phí vận chuyển khi mua hàng từ chúng tôi. Hãy tận hưởng trải
+            nghiệm mua sắm tiện lợi với dịch vụ giao hàng miễn phí của chúng
+            tôi!
+          </p>
+          <button class="btn">read more</button>
+        </div>
+        <div class="box">
+          <img
+            width="100px"
+            style="background-color: red; border-radius: 50%"
+            src="image/download (6).jpg"
+            alt=""
+          />
+          <h3>easy payment</h3>
+          <p>
+            Chúng tôi cam kết cung cấp các phương thức thanh toán nhanh chóng và
+            tiện lợi để bạn có thể thanh toán một cách dễ dàng và an toàn. Bạn
+            có thể sử dụng các phương thức thanh toán như thẻ tín dụng, chuyển
+            khoản ngân hàng hoặc các phương thức thanh toán trực tuyến khác. Đảm
+            bảo rằng bạn có trải nghiệm mua sắm trực tuyến tiện lợi và an toàn
+            với dịch vụ giao hàng miễn phí và thanh toán nhanh của chúng tôi!
+          </p>
+          <button class="btn">read more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">Our<span>products</span></h1>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh1.webp"
+              alt=""
+            />
+            <h3>Giày wika</h3>
+            <div class="price"><span>140.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn" id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh2.webp"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>240.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh3.webp"
+              alt=""
+            />
+            <h3>Giày 3 sọc</h3>
+            <div class="price"><span>180.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh4.png"
+              alt=""
+            />
+            <h3>Giày Phủi</h3>
+            <div class="price"><span>1.040.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh6.png"
+              alt=""
+            />
+            <h3>Giày Nike</h3>
+            <div class="price"><span>400.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/anh7.webp"
+              alt=""
+            />
+            <h3>Giày Mizuno</h3>
+            <div class="price"><span>650.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="image/anh8.png"
+              alt=""
+            />
+            <h3>Giày Kamito</h3>
+            <div class="price"><span>450.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+          <div class="swiper-slide box">
+            <img
+              width="300px"
+              src="./image/download.jpg"
+              alt=""
+            />
+            <h3>Giày wika</h3>
+            <div class="price"><span>140.000VNĐ</span></div>
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <button class="btn"id="addToBtn">add cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="categories">
+      <h1 class="heading">Product<span>categories</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img width="300px" src="https://pngimg.com/uploads/football_boots/football_boots_PNG29.png" alt="">
+          <h3>Soccer Shoes product</h3>
+          <p>upto 45% off</p>
+          <button class="btn">Shop now</button>
+        </div>
+        <div class="box">
+          <img width="200px" src="https://www.colours-of-football.com/national_teams_kits/oceania/png/PNG_papua_new_guinea_national_team_1_11.png" alt="">
+          <h3>soccer clothing products</h3>
+          <p>upto 45% off</p>
+          <button class="btn">Shop now</button>
+        </div>
+        <div class="box">
+          <img width="300px" src="https://www.rookieroad.com/img/soccer/soccer-equipment-list.png" alt="">
+          <h3>soccer accessories products</h3>
+          <p>upto 45% off</p>
+          <button class="btn">Shop now</button>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+
+      <h1 class="heading">Latest<span>blog posts</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.pyIOdXhJ-TZIZuyh_Aw_6AHaE8&pid=Api&P=0&h=220" alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i> by user</a>
+              <a href="#"><i class="fas fa-calendar"></i> 1st may,2023</a>
+            </div>
+            <h3> Clothing and shoe  </h3>
+            <p>Our blog posts about football are a great source of information for breaking news, analyzing matches and learning about interesting stories from the world of football. Please visit our blog to not miss any important information about this king sport!</p>
+            <button class="btn">Read more</button>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.-7879XqQl4jmiWKwYUTFAAHaEK&pid=Api&P=0&h=220" alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i> by user</a>
+              <a href="#"><i class="fas fa-calendar"></i> 1st may,2023</a>
+            </div>
+            <h3> Clothing and shoe  </h3>
+            <p>Our blog posts about football are a great source of information for breaking news, analyzing matches and learning about interesting stories from the world of football. Please visit our blog to not miss any important information about this king sport!</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://thumbs.dreamstime.com/b/soccer-ball-shoes-football-playground-sunset-soccer-ball-shoes-football-playground-107048121.jpg" alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i> by user</a>
+              <a href="#"><i class="fas fa-calendar"></i> 1st may,2023</a>
+            </div>
+            <h3> Clothing and shoe  </h3>
+            <p>Our blog posts about football are a great source of information for breaking news, analyzing matches and learning about interesting stories from the world of football. Please visit our blog to not miss any important information about this king sport!</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3> <a href="#" class="logo"
+            >HexiBall<ion-icon name="football-outline"></ion-icon
+          ></a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. aliquam space</p>
+        
+          <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href=""class="fab fa-linkedin"></a>
+             <a href=""> </a>
+          </div>
+      </div>
+    
+    <div class="box">
+      <h3>Contact infor</h3>
+      <a href="#" class = " links" ><i class="fas fa-arrow-right"></i> +123-456-7890</a>
+      <a href="#" class = " links" ><i class="fas fa-phone"></i> +123-456-7890</a>
+      <a href="#" class = " links" ><i class="fas fa-envelope"></i>Kienpham@gmail.com</a>
+      <a href="#" class = " links" ><i class="fas fa-map-marker-alt"> </i>Dai tu-Dai kim-Hoang mai -Ha noi</a>
+  </div>
+
+  <div class="box">
+    <h3>quick links</h3>
+    <a href="Home.html" class = " links" ><i class="fas fa-arrow-right"></i> Home </a>
+    <a href="Shop.html" class = " links" ><i class="fas fa-arrow-right"></i>Shop</a>
+    <a href="product.html" class = " links" ><i class="fas fa-arrow-right"></i>Product</a>
+    <a href="contact.html" class = " links" ><i class="fas fa-arrow-right"></i>Conteact&Support</a>
+    <a href="#" class = " links" ><i class="fas fa-arrow-right"></i> Blogs</a>
+  </div>
+  <div class="box">
+    <h3>newsletter</h3>
+    <p>subcribe for latest updates</p>
+    <input type="email" name="" id="" class="mail" placeholder="Enter your mail....">
+    <input type="submit" value="subcribe" class="btn">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.XodbJ3pkDvDf1qtMQA6OSAHaBJ&pid=Api&P=0&h=220" class="payment-img" alt="">
+  </div>
+</div>
+
+<div class="credit"> created by <span>mr. Web designer </span> | all rights reserved</div>
+    </section>
+  </body>
+  <script src="/JS/Shop.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>var swiper = new Swiper(".product-slider", {
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1020: {
+            slidesPerView: 3,
+        },
+    },
+  });</script>
+</html>

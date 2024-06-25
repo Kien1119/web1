@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    width: 100%;
+    height: 100vh;
+    background: url('https://pkmacbook.com/wp-content/uploads/2021/06/background-the-thao_120724367.png') no-repeat ;
+}
+
+.login-box {
+  
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(5,25,25.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+}
+
+.input-class {
+    position: relative;
+    width: 310px;
+    margin: 30px;
+    border-bottom: 2px solid #000;
+}
+
+.input-class label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-class input:focus~label,
+.input-class input:valid~label {
+    top: -5px;
+}
+
+
+.input-class input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #000;
+    padding: 0 35px 0 5px;
+}
+
+
+.input-class .icon {
+    position: absolute;
+    right: 8px;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.rememberme-forgot {
+    margin: -15px 0 15px;
+    font: .9em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberme-forgot label input {
+    margin-right:3px ;
+}
+
+.rememberme-forgot a {
+    color: #000;
+    text-decoration: none;
+}
+
+.rememberme-forgot a:hover{
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.register-link {
+    font-size: .9em;
+    color: #000;
+    text-align: center;
+    margin: 25px 0 10px ;
+}
+
+.register-link  p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a :hover{
+    text-decoration: underline;
+}
